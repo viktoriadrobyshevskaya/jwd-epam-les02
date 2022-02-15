@@ -29,7 +29,7 @@ public class Input {
         int[] arr = new int[x];
         Random random = new Random();
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = random.nextInt(20);
+            arr[i] = random.nextInt(20) + 1;
         }
         return arr;
     }
